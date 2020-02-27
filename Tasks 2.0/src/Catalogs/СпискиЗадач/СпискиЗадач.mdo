@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5fd35fb-4dd2-418f-9a61-ec3831aa7d8e">
+  <producedTypes>
+    <objectType typeId="9c111efc-7ff3-49d9-ae87-e9a33cb552a0" valueTypeId="0c4792ce-1b74-4599-b512-51acacb45d74"/>
+    <refType typeId="df6ed2b0-c120-4895-82d0-bbb4b7ba4aad" valueTypeId="2a4d57d8-1929-4d3c-96c7-5559ed980a0a"/>
+    <selectionType typeId="c6555f7b-38c6-4e41-a0c2-7516e16aeb46" valueTypeId="854f117e-6e5d-4701-bfe4-bd07e1018d96"/>
+    <listType typeId="5a8c013b-0ed1-40b2-94a5-1481b25f1d9d" valueTypeId="55697a8c-1f0c-4b62-96d6-61697d126bd6"/>
+    <managerType typeId="f7d7b634-ac7d-48ff-974b-bb7ee741e724" valueTypeId="0a31f154-682a-49fa-9aa0-2f0feffd3dfa"/>
+  </producedTypes>
+  <name>СпискиЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпискиЗадач.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СпискиЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
