@@ -26,10 +26,10 @@
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1bdae309-a42a-4fc3-98d2-12330ef9e3df">
-    <name>Реквизит</name>
+    <name>СписокЗадач</name>
     <synonym>
       <key>ru</key>
-      <value>Реквизит</value>
+      <value>Список задач</value>
     </synonym>
     <type>
       <types>String</types>
