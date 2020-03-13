@@ -23,8 +23,24 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bfab06c5-5250-4e1d-b21b-a2379b6ad513">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="1bdae309-a42a-4fc3-98d2-12330ef9e3df">
     <name>СписокЗадач</name>
     <synonym>
@@ -32,12 +48,59 @@
       <value>Список задач</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.СпискиЗадач</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="42d3d78f-3507-486f-a931-a6d10898b5e8">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="bca8ae48-57d9-4c58-bdcb-8ec489e1fea6">
+    <producedTypes>
+      <objectType typeId="61bd0d32-ccd7-4b66-a938-12bae6fb5322" valueTypeId="543fc74b-e68f-4534-9a4f-b3a51ca3f186"/>
+      <rowType typeId="349576c2-865b-427d-bf2b-c013bd291495" valueTypeId="fe620ef9-09b8-4064-bfaa-5e78db7cf4df"/>
+    </producedTypes>
+    <name>Действия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия</value>
+    </synonym>
+    <attributes uuid="369dc428-885b-48b5-9938-0080a01282f8">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="63e2ca6b-3be8-4724-af48-432d770fee42">
+      <name>Выполнено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
